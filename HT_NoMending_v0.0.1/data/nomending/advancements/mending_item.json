@@ -1,0 +1,22 @@
+{
+    "parent": "hardcoretweaks:nomending",
+    "criteria": {
+        "mending_in_inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:mending"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "nomending:mending_in_inv"
+    }
+}

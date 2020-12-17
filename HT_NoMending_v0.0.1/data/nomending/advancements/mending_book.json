@@ -1,0 +1,23 @@
+{
+    "parent": "hardcoretweaks:nomending",
+    "criteria": {
+        "mending_in_inv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanted_book",
+                        "stored_enchantments": [
+                            {
+                                "enchantment": "minecraft:mending"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "nomending:mending_in_inv_book"
+    }
+}
