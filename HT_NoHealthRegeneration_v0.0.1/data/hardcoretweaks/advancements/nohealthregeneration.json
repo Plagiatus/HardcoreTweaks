@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": "No Health Regeneration",
+		"description": ["",{"text":"Disables natural health regeneration.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

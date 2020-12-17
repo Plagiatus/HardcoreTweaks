@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Increased Villager Trading Cost",
+		"description": ["",{"text":"Increases villager trading costs.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger tradingCost\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

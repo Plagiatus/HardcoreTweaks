@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:clock"
+		},
+		"title": "Ingame days start at 64",
+		"description": ["",{"text":"You start your new world after 64 ingame days for maximum local difficulty.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

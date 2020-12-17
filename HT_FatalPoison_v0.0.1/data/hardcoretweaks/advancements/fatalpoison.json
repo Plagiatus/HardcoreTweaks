@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt":"{Potion: 'minecraft:poison'}"
+		},
+		"title": "Poison can kill you",
+		"description": ["",{"text":"Poison is acting like wither damage","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

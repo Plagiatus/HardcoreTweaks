@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:torch"
+		},
+		"title": "Hostile mobs remove torches",
+		"description": ["",{"text":"Hostile mobs have a chance to remove close torches.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger hostiletorch\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

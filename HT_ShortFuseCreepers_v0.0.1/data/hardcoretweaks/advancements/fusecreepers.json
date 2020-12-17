@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"title": "Faster exploding Creepers",
+		"description": ["",{"text":"Creepers will explode faster.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger fuseCreepers\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "Mobs track you from further away",
+		"description": ["",{"text":"Mob follow range is bigger than normal.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger mobtracking\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt":"{SkullOwner: {Id: [I; 0,0,0,0], Properties: {textures: [{Value: 'ewogICJ0aW1lc3RhbXAiIDogMTYwODA0NjE4NTAzOCwKICAicHJvZmlsZUlkIiA6ICI2NDg3MGNiM2UzZTE0ODU3YmVjNmI5ZjU5N2RjOGIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGFneXB1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MmZlOTJkYWViYWMwMjM1NzBlNGVmNWFmYWM1N2Y0ZjNkZWM0NTdhOGYzZGQ2ZjRiOTlmNzg2M2M2MTBhNzIzIgogICAgfQogIH0KfQ=='}]}}}"
+		},
+		"title": "Randomly Charged Creepers",
+		"description": ["",{"text":"Creepers have a random chance to be charged creepers.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger chargedCreeper\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

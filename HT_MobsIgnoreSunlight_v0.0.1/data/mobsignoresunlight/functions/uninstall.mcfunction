@@ -1,0 +1,1 @@
+execute as @e[type=#mobsignoresunlight:mob,tag=ignoringsunlight] run function mobsignoresunlight:reverse

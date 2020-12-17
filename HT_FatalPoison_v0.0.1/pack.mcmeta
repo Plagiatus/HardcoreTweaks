@@ -1,0 +1,6 @@
+{
+    "pack": {
+		"pack_format": 7,
+		"description": [{"text":"Poison can kill you.","color":"gold"},{"text":"\n<url>","color":"yellow"}]
+	}
+}

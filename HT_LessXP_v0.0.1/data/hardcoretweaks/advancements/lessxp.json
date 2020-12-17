@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"
+		},
+		"title": "Less XP        ",
+		"description": ["",{"text":"Reduces XP from all sources.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger lessxp\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

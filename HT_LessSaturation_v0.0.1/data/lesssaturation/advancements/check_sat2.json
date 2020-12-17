@@ -1,0 +1,19 @@
+{
+    "parent": "hardcoretweaks:lesssaturation",
+	"criteria": {
+		"consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag":"lesssaturation:sat2"
+                }
+            }
+        },
+        "tick": {
+            "trigger":"minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function":"lesssaturation:process/sat2"
+    }
+}

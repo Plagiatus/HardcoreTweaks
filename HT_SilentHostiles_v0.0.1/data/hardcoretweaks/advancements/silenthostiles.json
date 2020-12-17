@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:feather"
+		},
+		"title": "Randomly Silenced Mobs",
+		"description": ["",{"text":"Hostile mobs have a chance to spawn silenced.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger silentHostiles\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

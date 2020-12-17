@@ -1,0 +1,6 @@
+{
+    "pack": {
+		"pack_format": 7,
+		"description": [{"text":"Change the distance from which mobs can track you","color":"gold"},{"text":"\n<url>","color":"yellow"}]
+	}
+}

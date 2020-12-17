@@ -1,0 +1,1 @@
+execute as @e[type=#mobsignoresunlight:mob,tag=!ignoringsunlight] unless data entity @s ArmorItems[3].id run function mobsignoresunlight:process

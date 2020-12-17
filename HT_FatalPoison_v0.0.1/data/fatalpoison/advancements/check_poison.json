@@ -1,0 +1,19 @@
+{
+    "parent": "hardcoretweaks:fatalpoison",
+	"criteria": {
+		"poison": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:poison": {}
+                }
+            }
+        },
+        "tick": {
+            "trigger":"minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function":"fatalpoison:poisoned"
+    }
+}

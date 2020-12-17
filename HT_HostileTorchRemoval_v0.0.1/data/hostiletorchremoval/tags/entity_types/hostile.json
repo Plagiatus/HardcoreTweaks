@@ -1,0 +1,32 @@
+{
+    "values": [
+        "blaze",
+        "creeper",
+        "drowned",
+        "elder_guardian",
+        "guardian",
+        "endermite",
+        "evoker",
+        "ghast",
+        "guardian",
+        "hoglin",
+        "husk",
+        "magma_cube",
+        "phantom",
+        "piglin_brute",
+        "pillager",
+        "ravager",
+        "shulker",
+        "silverfish",
+        "skeleton",
+        "slime",
+        "stray",
+        "vex",
+        "vindicator",
+        "witch",
+        "wither_skeleton",
+        "zoglin",
+        "zombie",
+        "zombie_villager"
+    ]
+}
