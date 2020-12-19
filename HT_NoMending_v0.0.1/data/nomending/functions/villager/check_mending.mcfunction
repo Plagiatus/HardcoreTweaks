@@ -1,0 +1,1 @@
+execute as @s[nbt={Offers:{Recipes:[{sell:{id:"minecraft:enchanted_book",tag:{StoredEnchantments:[{id:"minecraft:mending"}]}}}]}}] run function nomending:villager/remove_mending

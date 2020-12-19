@@ -1,0 +1,1 @@
+tag @s[nbt={VillagerData:{profession:"minecraft:librarian"}}] remove nomending
