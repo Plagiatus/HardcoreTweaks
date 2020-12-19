@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword",
+			"nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+		},
+		"title": "Mob Weapons and Enchantments",
+		"description": ["",{"text":"Hostile mobs have a higher chance to spawn with (enchanted) weapons and armor.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger mobEnchantments\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

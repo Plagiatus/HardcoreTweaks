@@ -1,0 +1,11 @@
+tellraw @s ["\n",{"text": "More Mob Enchantments Help","underlined": true, "bold": true, "color": "gold"},{"text": "\nHostile mobs have an additional chance to spawn with (enchanted) weapons and armor.","color": "gold"}]
+tellraw @s ["",{"text": "Run ","color": "green"},{"color": "blue", "text": "/scoreboard players set $armor mobEnchantments XX","clickEvent": {"action": "suggest_command","value": "/scoreboard players set $armor mobEnchantments "}},{"text": " to change the percentage of the additional chance to spawn with armor.","color": "green"}]
+tellraw @s [{"text": "Default: 40%    Current: ", "color": "gray", "italic": true},{"score": {"name": "$armor","objective": "mobEnchantments"}},"%"]
+tellraw @s ["",{"text": "Run ","color": "green"},{"color": "blue", "text": "/scoreboard players set $weapons mobEnchantments XX","clickEvent": {"action": "suggest_command","value": "/scoreboard players set $weapons mobEnchantments "}},{"text": " to change the percentage of the additional chance to spawn with weapons.","color": "green"}]
+tellraw @s [{"text": "Default: 30%    Current: ", "color": "gray", "italic": true},{"score": {"name": "$weapons","objective": "mobEnchantments"}},"%"]
+tellraw @s ["",{"text": "Run ","color": "green"},{"color": "blue", "text": "/scoreboard players set $enchants mobEnchantments XX","clickEvent": {"action": "suggest_command","value": "/scoreboard players set $enchants mobEnchantments "}},{"text": " to change the percentage of those additional mobs that have enchanted gear.","color": "green"}]
+tellraw @s [{"text": "Default: 20%    Current: ", "color": "gray", "italic": true},{"score": {"name": "$enchants","objective": "mobEnchantments"}},"%"]
+tellraw @s ["",{"text": "Run ","color": "green"},{"color": "blue", "text": "/scoreboard players set $enchantlvl mobEnchantments XX","clickEvent": {"action": "suggest_command","value": "/scoreboard players set $enchantlvl mobEnchantments "}},{"text": " to change the average enchantment strength (0-6).","color": "green"}]
+tellraw @s [{"text": "Default: 3    Current: ", "color": "gray", "italic": true},{"score": {"name": "$enchantlvl","objective": "mobEnchantments"}},""]
+
+scoreboard players set @s mobEnchantments 0
