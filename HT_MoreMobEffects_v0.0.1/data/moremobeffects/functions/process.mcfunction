@@ -58,5 +58,3 @@ execute if score #effect_this moreMobEffects matches 1 if score $invisible moreM
 execute if score #effect_this moreMobEffects matches 1 if score $invisible moreMobEffects matches 1 if score #effect_this_lvl moreMobEffects matches 1 run effect give @s invisibility 1000000 1
 execute if score #effect_this moreMobEffects matches 1 if score $invisible moreMobEffects matches 1 if score #effect_this_lvl moreMobEffects matches 2 run effect give @s invisibility 1000000 2
 execute if score #effect_this moreMobEffects matches 1 if score $invisible moreMobEffects matches 1 if score #effect_this_lvl moreMobEffects matches 3 run effect give @s invisibility 1000000 3
-
-say processed
