@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:'minecraft:swiftness'}"
+		},
+		"title": "More Mob Effects",
+		"description": ["",{"text":"Hostile mobs have a chance to spawn with effects.\n","color":"gold"},{"text":"Run ","color":"green"},{"text":"/trigger moreMobEffects\n","color":"blue"},{"text":"for help."}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "hardcoretweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

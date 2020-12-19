@@ -1,0 +1,6 @@
+{
+    "pack": {
+		"pack_format": 7,
+		"description": [{"text":"Some hostile mobs have strengthening effects applied.","color":"gold"},{"text":"\n<url>","color":"yellow"}]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "values": [
+        "zombie",
+        "drowned",
+        "hoglin",
+        "husk",
+        "piglin",
+        "piglin_brute",
+        "zombified_piglin",
+        "zoglin",
+        "silverfish",
+        "vindicator",
+        "zombie_villager",
+        "enderman",
+        "spider",
+        "cave_spider",
+        "wither_skeleton"
+    ]
+}
