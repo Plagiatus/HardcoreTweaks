@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Datapacks",
+        "description": "",
+        "packs": [
+            {
+                "title": "64 days",
+                "description": "Start the game on day 64 for maximum local difficulty",
+                "icon": "",
+                "warning": "",
+                "link": "HT_64Days",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Charged Creepers",
+                "description": "Some creepers are charged by default",
+                "icon": "",
+                "warning": "",
+                "link": "HT_ChargedCreepers",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Fatal Poison",
+                "description": "Poison is not only more potent, but also kills you.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_FatalPoison",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Hostile Torch Removal",
+                "description": "Hostile mobs occasionally remove torches around them.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_HostileTorchRemoval",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Increase Trade Costs",
+                "description": "Villager trades are more expensive",
+                "icon": "",
+                "warning": "",
+                "link": "HT_IncreaseTradeCost",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Less Saturation",
+                "description": "The effective saturation of food is halved.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_LessSaturation",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Less XP",
+                "description": "All XP sources provide less XP",
+                "icon": "",
+                "warning": "",
+                "link": "HT_LessXP",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Longer Mob Range",
+                "description": "Mobs detect you from further away",
+                "icon": "",
+                "warning": "",
+                "link": "HT_LongMobTracking",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Mobs Ignore Sunlight",
+                "description": "Undead mobs don't burn in the sunlight anymore",
+                "icon": "",
+                "warning": "",
+                "link": "HT_MobsIgnoreSunlight",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "More Mob Effects",
+                "description": "Mobs spawn more often with effects",
+                "icon": "",
+                "warning": "",
+                "link": "HT_MoreMobEffects",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "More Mob Weapons",
+                "description": "Mobs spawn with more (enchanted) weapons and armor",
+                "icon": "",
+                "warning": "",
+                "link": "HT_MoreMobEnchantments",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Chest Loot",
+                "description": "Generated chests don't contain any loot.",
+                "icon": "",
+                "warning": "This overwrites all loot tables for chest in the game!",
+                "link": "HT_NoChestLoot",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Natural Health Regeneration",
+                "description": "There is no natural health regeneration",
+                "icon": "",
+                "warning": "",
+                "link": "HT_NoHealthRegeneration",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Mending",
+                "description": "All occurences of mending are removed from the game.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_NoMending",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Mob Drops",
+                "description": "Mobs don't drop any of their normal drops.",
+                "icon": "",
+                "warning": "This overwrites all loot tables for all mobs in the game!",
+                "link": "HT_NoMobDrops",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Short Fuse Creepers",
+                "description": "Creepers explode faster than normal.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_ShortFuseCreepers",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Silent Hostiles",
+                "description": "Some mobs are silent and might just sneak up on you.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_SilentHostiles",
+                "latest": "0.0.1",
+                "video": ""
+            }
+        ]
+    }
+]

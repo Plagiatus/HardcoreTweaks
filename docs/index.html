@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardcore Tweaks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jszip.min.js"></script>
+    <script src="jszip-utils.min.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hardcore Tweaks</h1>
+        <p><span>Idea by <a href="https://streamerlinks.com/iJevin" target="_blank" rel="noopener noreferrer">iJevin</a></span> <span>Datapacks and website by <a href="https://plagiatus.net" target="_blank" rel="noopener noreferrer">Plagiatus</a></span></p>
+    </header>
+    <main>
+        <div id="category-wrapper">
+
+        </div>
+        <div id="selection-wrapper">
+            <h3>Selection</h3>
+            <div id="selection">
+                Nothing selected
+            </div>
+            <div id="warnings">
+
+            </div>
+            <button id="download" disabled>Download selected</button>
+        </div>
+    </main>
+</body>
+
+<template id="template-pack">
+    <div class="pack">
+        <p class="pack-title">Title</p>
+        <img src="" alt="icon" class="pack-icon">
+        <p class="pack-version">v0.0.1</p>
+        <div class="pack-description">Description</div>
+    </div>
+</template>
+<template id="template-category">
+    <div class="category">
+        <h3 class="category-title">Title</h3>
+        <button class="selectall">Select All</button>
+        <button class="deselectall">Deselect All</button>
+        <div class="packs-wrapper">
+
+        </div>
+    </div>
+</template>
+
+</html>
