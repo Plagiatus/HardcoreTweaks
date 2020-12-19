@@ -1,2 +1,2 @@
 tag @s add moremobenchantments_crossbow 
-function moremobenchantments:give/crossbow
+execute as @s[nbt={HandItems:[{id:"minecraft:crossbow"}]}] run function moremobenchantments:give/crossbow
