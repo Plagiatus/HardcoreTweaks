@@ -85,3 +85,7 @@ footer {
     text-decoration: underline;
     color: inherit;
 }
+
+#selection-wrapper {
+    margin-bottom: 1rem;
+}
