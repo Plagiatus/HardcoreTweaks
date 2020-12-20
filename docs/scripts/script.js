@@ -18,12 +18,22 @@ function genPage() {
     let packTemplate = document.getElementById("template-pack");
     let categoryWrapper = document.getElementById("category-wrapper");
 
+    let first = true;
     for (let category of packs) {
         let newCat = categoryTemplate.content.cloneNode(true);
-        newCat.querySelector(".category-title").innerText = category.name;
+        let title = newCat.querySelector(".category-title");
+        title.innerText = category.name;
+        title.setAttribute("data-bs-target", "#" + removeSpaces(category.name));
         let packsWrapper = newCat.querySelector(".packs-wrapper");
         newCat.querySelector(".selectall").addEventListener("click", selectAll);
         newCat.querySelector(".deselectall").addEventListener("click", deselectAll);
+        newCat.querySelector(".category-content").id = removeSpaces(category.name);
+
+        if (first) {
+            title.classList.remove("collapsed");
+            newCat.querySelector(".category-content").classList.add("show");
+            first = false;
+        }
 
         categoryWrapper.appendChild(newCat);
         for (let pack of category.packs) {
@@ -33,6 +43,14 @@ function genPage() {
             description.innerText = pack.description;
             let packDiv = newPack.querySelector(".pack");
             packDiv.addEventListener("click", toggleSelect);
+
+            let icon = newPack.querySelector("img");
+            if (pack.icon) {
+                icon.src = "img/" + pack.icon;
+            } else {
+                icon.src = "img/placeholder.jpg";
+            }
+
             packsWrapper.appendChild(newPack);
 
             function toggleSelect() {
@@ -48,17 +66,22 @@ function genPage() {
         }
 
         function selectAll() {
-            selection = [];
-            selection.push(...category.packs);
-            let selectionDivs = document.getElementsByClassName("pack");
+            for (let pack of category.packs) {
+                if (!selection.includes(pack))
+                    selection.push(pack);
+            }
+            let selectionDivs = packsWrapper.getElementsByClassName("pack");
             for (let div of selectionDivs) {
                 div.classList.add("selected");
             }
             updateSelected();
         }
         function deselectAll() {
-            selection = [];
-            let selectionDivs = document.getElementsByClassName("pack");
+            for (let pack of category.packs) {
+                if (selection.includes(pack))
+                    selection.splice(selection.indexOf(pack), 1);
+            }
+            let selectionDivs = packsWrapper.getElementsByClassName("pack");
             for (let div of selectionDivs) {
                 div.classList.remove("selected");
             }
@@ -70,10 +93,13 @@ function genPage() {
 function updateSelected() {
     let selectionDiv = document.getElementById("selection");
     selectionDiv.innerHTML = "";
+    let ul = document.createElement("ul");
+    ul.classList.add("list-group")
     for (let pack of selection) {
-        let p = document.createElement("p");
-        p.innerText = pack.title;
-        selectionDiv.appendChild(p);
+        let li = document.createElement("li");
+        li.innerText = pack.title;
+        li.classList.add("list-group-item")
+        ul.appendChild(li);
     }
 
     let dlButton = document.getElementById("download");
@@ -81,6 +107,8 @@ function updateSelected() {
     if (selection.length == 0) {
         selectionDiv.innerText = "Nothing selected";
         dlButton.disabled = true;
+    } else {
+        selectionDiv.appendChild(ul);
     }
 }
 
@@ -107,4 +135,8 @@ function urlToPromise(url) {
             }
         });
     });
+}
+
+function removeSpaces(s) {
+    return s.replace(" ", "");
 }

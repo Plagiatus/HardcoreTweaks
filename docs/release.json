@@ -1,32 +1,14 @@
 [
     {
-        "name": "Datapacks",
+        "name": "Mobs",
         "description": "",
         "packs": [
-            {
-                "title": "64 days",
-                "description": "Start the game on day 64 for maximum local difficulty",
-                "icon": "",
-                "warning": "",
-                "link": "HT_64Days",
-                "latest": "0.0.1",
-                "video": ""
-            },
             {
                 "title": "Charged Creepers",
                 "description": "Some creepers are charged by default",
                 "icon": "",
                 "warning": "",
                 "link": "HT_ChargedCreepers",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
-                "title": "Fatal Poison",
-                "description": "Poison is not only more potent, but also kills you.",
-                "icon": "",
-                "warning": "",
-                "link": "HT_FatalPoison",
                 "latest": "0.0.1",
                 "video": ""
             },
@@ -45,24 +27,6 @@
                 "icon": "",
                 "warning": "",
                 "link": "HT_IncreaseTradeCost",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
-                "title": "Less Saturation",
-                "description": "The effective saturation of food is halved.",
-                "icon": "",
-                "warning": "",
-                "link": "HT_LessSaturation",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
-                "title": "Less XP",
-                "description": "All XP sources provide less XP",
-                "icon": "",
-                "warning": "",
-                "link": "HT_LessXP",
                 "latest": "0.0.1",
                 "video": ""
             },
@@ -103,33 +67,6 @@
                 "video": ""
             },
             {
-                "title": "No Chest Loot",
-                "description": "Generated chests don't contain any loot.",
-                "icon": "",
-                "warning": "This overwrites all loot tables for chest in the game!",
-                "link": "HT_NoChestLoot",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
-                "title": "No Natural Health Regeneration",
-                "description": "There is no natural health regeneration",
-                "icon": "",
-                "warning": "",
-                "link": "HT_NoHealthRegeneration",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
-                "title": "No Mending",
-                "description": "All occurences of mending are removed from the game.",
-                "icon": "",
-                "warning": "",
-                "link": "HT_NoMending",
-                "latest": "0.0.1",
-                "video": ""
-            },
-            {
                 "title": "No Mob Drops",
                 "description": "Mobs don't drop any of their normal drops.",
                 "icon": "",
@@ -153,6 +90,76 @@
                 "icon": "",
                 "warning": "",
                 "link": "HT_SilentHostiles",
+                "latest": "0.0.1",
+                "video": ""
+            }
+
+        ]
+    },
+    {
+        "name": "Other",
+        "description": "",
+        "packs": [
+            {
+                "title": "64 days",
+                "description": "Start the game on day 64 for maximum local difficulty",
+                "icon": "",
+                "warning": "",
+                "link": "HT_64Days",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Fatal Poison",
+                "description": "Poison is not only more potent, but also kills you.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_FatalPoison",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Less Saturation",
+                "description": "The effective saturation of food is halved.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_LessSaturation",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "Less XP",
+                "description": "All XP sources provide less XP",
+                "icon": "",
+                "warning": "",
+                "link": "HT_LessXP",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Chest Loot",
+                "description": "Generated chests don't contain any loot.",
+                "icon": "",
+                "warning": "This overwrites all loot tables for chest in the game!",
+                "link": "HT_NoChestLoot",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Natural Health Regeneration",
+                "description": "There is no natural health regeneration",
+                "icon": "",
+                "warning": "",
+                "link": "HT_NoHealthRegeneration",
+                "latest": "0.0.1",
+                "video": ""
+            },
+            {
+                "title": "No Mending",
+                "description": "All occurences of mending are removed from the game.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_NoMending",
                 "latest": "0.0.1",
                 "video": ""
             }

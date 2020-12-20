@@ -1,5 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .pack-icon {
@@ -19,15 +23,27 @@ body {
     padding: 5px;
     text-align: center;
     position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack-description, .pack {
+    border-radius: .25rem;
 }
 
 .pack.selected {
     background-color: rgba(0, 0, 0, 0.2);
-    outline: 2px solid seagreen;
+    border: 2px solid seagreen;
+    padding: 3px;
 }
 
 .pack-version {
     font-size: 0.7em;
+    margin-top: auto;
+    width: 100%;
+    margin-bottom: 0.1em;
 }
 
 .pack-description {
@@ -42,5 +58,30 @@ body {
 }
 
 .pack:hover .pack-description {
-    display: block;
+    display: flex;
+    align-items: center;
+}
+
+#pagetitle {
+    text-align: center;
+}
+
+header, footer {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    margin-top: auto;
+    padding: 0.5rem;
+}
+
+#credit {
+    text-align: center;
+}
+#credit a {
+    text-decoration: underline;
+    color: inherit;
 }
