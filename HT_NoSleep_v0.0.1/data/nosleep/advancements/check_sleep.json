@@ -1,0 +1,12 @@
+{
+    "parent": "hardcoretweaks:nosleep",
+    "rewards": {
+        "function": "nosleep:kick"
+    },
+    "criteria": {
+        "in_bed": {
+            "trigger": "slept_in_bed",
+            "conditions": {}
+        }
+    }
+}

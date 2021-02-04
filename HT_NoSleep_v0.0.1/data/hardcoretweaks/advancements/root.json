@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODAzNjQ0Mzg2MiwKICAicHJvZmlsZUlkIiA6ICI2NDg3MGNiM2UzZTE0ODU3YmVjNmI5ZjU5N2RjOGIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQbGFneXB1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZWQ2Y2U5NGNlYTYyMTdhOGE3ZmNjZTU0YTMzN2EzN2ZlMmUyZjQ1YmU3MTExN2ExMGZjZDA0NGQ2YjlhNjcxIgogICAgfQogIH0KfQ=='}]}}}"
+		},
+		"title": "Hardcore Tweaks",
+		"frame": "challenge",
+		"description": ["",{"text":"All loaded Hardcore Tweaks data packs\n","color":"gold"},{"text":"plagiatus.net/hardcoretweaks","color":"yellow"}],
+		"background": "minecraft:textures/block/black_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
