@@ -1,6 +1,6 @@
 {
     "pack": {
 		"pack_format": 7,
-		"description": [{"text":"Change the distance from which mobs can track you","color":"gold"},{"text":"\n<url>","color":"yellow"}]
+		"description": [{"text":"Change the distance from which mobs can track you","color":"gold"},{"text":"\nplagiatus.net/hardcoretweaks","color":"yellow"}]
 	}
 }
