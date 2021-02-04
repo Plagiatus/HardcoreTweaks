@@ -41,6 +41,8 @@ function genPage() {
             newPack.querySelector(".pack-title").innerText = pack.title;
             let description = newPack.querySelector(".pack-description")
             description.innerText = pack.description;
+            let version = newPack.querySelector(".pack-version")
+            version.innerText = "v"+pack.latest;
             let packDiv = newPack.querySelector(".pack");
             packDiv.addEventListener("click", toggleSelect);
 
