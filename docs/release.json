@@ -162,6 +162,15 @@
                 "link": "HT_NoMending",
                 "latest": "0.0.1",
                 "video": ""
+            },
+            {
+                "title": "No Sleep",
+                "description": "Players get kicked out of their beds.",
+                "icon": "",
+                "warning": "",
+                "link": "HT_NoSleep",
+                "latest": "0.0.1",
+                "video": ""
             }
         ]
     }
